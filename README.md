@@ -1,7 +1,7 @@
 
 # Project Title
 
-Flashcard Generator
+Flashcard Generator App
 
 
 
@@ -44,13 +44,13 @@ Frontend: HTML, CSS, Javascript, React Js, React-redux, Formik, Tailwindcss
 Clone the project
 
 ```bash
-  git clone https://github.com/mayuryalij/youtube-frontend.git
+  https://github.com/mayuryalij/Flashcard-Generator-App.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd youtube-frontend
+  cd Flashcard-Generator-App
 ```
 
 Install dependencies
