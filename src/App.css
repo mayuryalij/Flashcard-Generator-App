@@ -1,38 +1,122 @@
-.App {
-  text-align: center;
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* background-color: #fef2f2; */
+  background-color: #e7f2e7;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* heading components ----------------------*/
+#flashGroup,
+#createBtn {
+  height: 5px;
+  position: absolute;
+  left: 0%;
+  bottom: -5%;
+  border-radius: 5px;
+  background: red;
+  transition: 0.5s ease;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+/* form - number --------- */
+#num {
+  position: absolute;
+  left: -8%;
+  top: 7%;
+  padding: 0px 6px;
+  border-radius: 50%;
+  font-size: 12px;
+  color: white;
+}
+#num1 {
+  position: absolute;
+  left: -8%;
+  top: 7%;
+  padding: 0px 6px;
+  border-radius: 50%;
+  font-size: 12px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+/* ------- FlashGroup.js styles -------- */
+#img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: rgb(186 176 176);
+  position: absolute;
+  top: -19%;
+  left: 36.5%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.cardImg {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: rgb(186 176 176);
+}
+
+/* --------------------- SharBtn.js style---------- */
+.popupBox {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  background: rgba(0, 0, 0, 0.696);
+}
+
+.closbtn {
+  position: absolute;
+  right: 5%;
+  top: 14%;
+  font-size: 21px;
+  cursor: pointer;
+}
+
+/* ---------------------------- responsiveness------------ */
+@media screen and (max-width: 600px) {
+  #form_resp {
+    flex-direction: column;
+    line-height: 20px;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media screen and (max-width: 1200px) {
+  #num {
+    left: -15%;
+  }
+  #num1 {
+    left: -15%;
+  }
+}
+@media screen and (max-width: 775px) and (min-width: 657px) {
+  #num {
+    left: -17%;
+  }
+  #num1 {
+    left: -17%;
+  }
+}
+@media screen and (max-width: 657px) and (min-width: 400px) {
+  #num {
+    left: -6%;
+  }
+  #num1 {
+    left: -6%;
   }
 }
