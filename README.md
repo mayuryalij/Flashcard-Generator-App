@@ -1,6 +1,6 @@
 # Flashcard Generator App
 
-![Flashcard Generator App](https://flashcard-generator.onrender.com/)
+[Flashcard Generator App](https://flashcard-generator.onrender.com/)
 
 ## Project Description
 
