@@ -1,97 +1,54 @@
+# Flashcard Generator App
 
-# Project Title
+![Flashcard Generator App](https://flashcard-generator.onrender.com/)
 
+## Project Description
 
-Flashcard Generator App
+Flashcard Generator App is a frontend application for creating and managing flashcards. It allows users to create multiple flashcards within a group. The application consists of three main pages:
 
-"https://flashcard-generator.onrender.com/"
+1. Create New Page:  
+   This page enables users to create a new flashcard. It contains two forms: one for entering the name and description of the flashcard, and another for adding individual card names and descriptions. The dynamic form is implemented using Formik. After clicking the Create button, the flashcard will be created.
 
+2. My FlashCard Page:  
+   On this page, users can view all the created card groups. Each group is displayed with a heading, description, total number of cards in the group, and a button for viewing the cards on the next page.
 
+3. FlashCard Details Page:  
+   This page allows users to view the created flashcards. Users can navigate between different flashcards by clicking on the sidebar terms associated with each card group. Additionally, they can share, print, and download the flashcards.
 
+## Technology Used
 
-# Project Description
+Frontend: HTML, CSS, JavaScript, React JS, React Redux, Formik, Tailwind CSS
 
-This is a frontend project on  Flashcard Generator.
+## Run Locally (Frontend)
 
-It is a flashcard generator app which helps in creating multiple flashcards in a group.
+1. Clone the project:
 
-This Project Consists of 3 Main Pages.
+   ```bash
+   git clone https://github.com/mayuryalij/Flashcard-Generator-App.git
+   ```
 
-1.Create New Page:
+2. Navigate to the project directory:
 
+   ```bash
+   cd Flashcard-Generator-App
+   ```
 
-First page was to Create Flashcard which contains two form one for the name & description of the flashcard , second form was to create Dynamic Form which was created using FORMIK, which has individual card name & card description. After clicking the Create Button, the Flashcard will be created.
+3. Install dependencies:
 
-2.My FlashCard Page:
+   ```bash
+   npm install
+   ```
 
+4. Start the server:
 
-here we can see all the created cards groups which has a Heading of the group ,the description of cardgroup, total number of cards in the group and a button for viewing the cards on next page.
-
-3.FlashCard Details Page:
-
-
-here we can see the created cards, we can navigate to different flashcards by clicking on sidebar terms given to the card while creating group, we can also share, print and download the flashcard.
-
-
-
-
-
- 
-
-
-Technology used:
-
-Frontend: HTML, CSS, Javascript, React Js, React-redux, Formik, Tailwindcss
-
-
-
-
-
-
-
-## Run Locally for Frontend
-
-Clone the project
-
-```bash
-  https://github.com/mayuryalij/Flashcard-Generator-App.git
-```
-
-Go to the project directory
-
-```bash
-  cd Flashcard-Generator-App
-```
-
-Install dependencies
-
-```bash
-  npm install
-```
-
-Start the server
-
-```bash
-  npm run start
-
- 
-```
-
-
-
-
-
-
+   ```bash
+   npm run start
+   ```
 
 ## Deployment
 
+This project is live at: [https://flashcard-generator.onrender.com/](https://flashcard-generator.onrender.com/)
 
-This Project is live: 
+---
 
-"https://flashcard-generator.onrender.com/"
-
-
-  
-
-  
-
+Please note that the above modifications provide accurate grammar and follow a professional format for a README.md file. However, you may further customize and add additional sections based on your project's specific requirements.
