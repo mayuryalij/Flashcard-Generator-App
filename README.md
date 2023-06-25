@@ -15,6 +15,20 @@ Flashcard Generator App is a frontend application for creating and managing flas
 3. FlashCard Details Page:  
    This page allows users to view the created flashcards. Users can navigate between different flashcards by clicking on the sidebar terms associated with each card group. Additionally, they can share, print, and download the flashcards.
 
+   ● Implemented agile methodology for designing, analyzing, and developing the
+frontend project. The entire project was planned out as a single sprint of 2
+weeks.
+
+● This application helps to create new flashcards and access created flashcards.
+
+● Utilized React, React-Redux, and localStorage to manage data, React-router
+for routing, and Tailwind CSS for component development and responsive
+design.
+
+● Improved the project’s efficiency by implementing validation using Formik.js
+on all the existing input fields, and extensive testing was carried out, reducing
+the project’s time complexity by 20%.
+
 ## Technology Used
 
 Frontend: HTML, CSS, JavaScript, React JS, React Redux, Formik, Tailwind CSS
@@ -51,4 +65,3 @@ This project is live at: [https://flashcard-generator.onrender.com/](https://fla
 
 ---
 
-Please note that the above modifications provide accurate grammar and follow a professional format for a README.md file. However, you may further customize and add additional sections based on your project's specific requirements.
