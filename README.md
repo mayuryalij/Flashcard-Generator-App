@@ -19,6 +19,8 @@ Flashcard Generator App is a frontend application for creating and managing flas
    This page allows users to view the created flashcards. Users can navigate between different flashcards by clicking on the sidebar 
    terms associated with each card group. Additionally, they can share, print, and download the flashcards.
 
+## Features
+
 ● Implemented agile methodology for designing, analyzing, and developing the
 frontend project. The entire project was planned out as a single sprint of 2
 weeks.
